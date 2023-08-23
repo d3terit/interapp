@@ -38,7 +38,7 @@ export const Avatar = (props) => {
     }
     let frase = "hola"
     let traducir = frase.toLowerCase().split("")
-    const avatar = useLoader(GLTFLoader, require('./assets/abc.glb'));
+    const avatar = useLoader(GLTFLoader, require('./assets/ybot.glb'));
     const mesh = useRef();
     let mixer
     let idleAnimation
